@@ -15,7 +15,7 @@ from exorde.counter import AsyncItemCounter
 from exorde.evaluate_token_count import evaluate_token_count
 from typing import Callable
 import datetime
-
+import asyncio
 
 wtp = WtP("wtp-canine-s-1l")
 
